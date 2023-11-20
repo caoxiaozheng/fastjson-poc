@@ -15,7 +15,7 @@ def send_data(url, payload):
         return f"Request failed with an error: {e}"
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='S2-061 Exploit Tool')
+    parser = argparse.ArgumentParser(description='fastjson Exploit Tool')
 
     parser.add_argument('-u', '--url', help='目标URL')
     parser.add_argument('-r', '--remote', type=str, help='要调用的远程rmi/ldap')
